@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.emergency.services.AboutActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/about_info"
+        android:textAlignment="gravity"
+        android:textStyle="italic" />
+    
+        <TextView
+        android:id="@+id/about_credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip"
+        android:textSize="16sp"
+        android:autoLink="web"
+        android:textColor="?android:attr/textColorPrimaryInverse" />
+
+
+</FrameLayout>
+
